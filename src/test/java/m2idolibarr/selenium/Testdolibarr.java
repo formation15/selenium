@@ -54,7 +54,7 @@ public class Testdolibarr {
 		driver.findElement(By.linkText("Nouveau tiers")).click();
 		driver.findElement(By.name("nom")).sendKeys("test");
 		driver.findElement(By.name("firstname")).sendKeys("firsttest");
-		new Select(driver.findElement(By.name("civilite_id"))).selectByVisibleText("Docteur");;
+		//new Select(driver.findElement(By.name("civilite_id"))).selectByVisibleText("Docteur");;
 		
 		
 		// non possible car existe ailleurs
